@@ -4,7 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-driver = webdriver.Chrome(executable_path=r'C:\Users\55719\Desktop\Programing\chromedriver.exe')
+driver_path = r'C:\Users\55719\Desktop\Programing\chromedriver.exe'
+driver = webdriver.Chrome(executable_path=driver_path)
 page_number = 1
 # Url with a variable in the end to choose the page where the complain links will be saved
 # With a for loop the pages will go through the ReclameAqui complain pages appending the links of the complains to the
@@ -21,7 +22,6 @@ lst_location_complains = []
 lst_titles_complain = []
 lst_status_complain = []
 
-driver_path = r'C:\Users\55719\Desktop\Programing\chromedriver.exe'
 def getting_elements(url, driver_path):
     driver = webdriver.Chrome(executable_path=driver_path)
     driver.get(url)

@@ -15,7 +15,7 @@ url = "https://www.reclameaqui.com.br/empresa/delboni-auriemo-medicina-diagnosti
     page_number)
 # List of the links. The Function 'getting_elements' will get each url from the links list
 links = []
-#Lists Of the information that will be saved on the DataFrame
+# Lists Of the information that will be saved on the DataFrame
 lst_data_complains = []
 lst_id_complains = []
 lst_location_complains = []

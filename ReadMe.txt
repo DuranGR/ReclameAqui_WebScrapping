@@ -17,7 +17,7 @@ Manual of Instructions
 Bugs/Problems
 	The program needs to be run non-stop, in the case of your internet stopping there code will most likely shut down
 
-	The Maximun number of complains accessible is 1010, after the 101 page the website will keep repeating the complains from page 101
+	The Maximun number of complains accessible is 1010, after the 101st page the website will keep repeating the complains from page 101
 
 I hope this code may be of use to you :D
 
